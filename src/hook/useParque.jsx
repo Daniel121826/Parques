@@ -9,7 +9,7 @@ const useParque = () => {
     const fetchParques = async () => {
       try {
         const response = await fetch(
-          "http://www.ies-azarquiel.es/paco/apiparques/parques",
+          "https://pacopul.github.io/json/pn/parques.json",
         );
         if (!response.ok) {
           throw new Error("Error al obtener los parques");
